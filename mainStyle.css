@@ -1,13 +1,20 @@
+*. *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 body {
 	margin: 0;
 	display: block;
 	position: relative;
 	overflow: hidden;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
 }
 p {
 	color: #fff;
 	font-family: 'Lato', sans-serif;
-	font-size: 20px;
+	font-size: 2vh;
 	margin: 0;
 	line-height: 200%;
 }
@@ -91,7 +98,7 @@ p {
 }
 .notify-me-btn, .notify-me-text {
 	padding: 15px 25px;
-	font-size: 15px;
+	font-size: 2vh;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	border: none;
@@ -109,7 +116,7 @@ p {
 .notify-me-text {
 	margin-right: 10px;
 	border: 1px solid #d35400;
-	width: 30%;
+	width: 40%;
 }
 .notify-me-text:focus, .notify-me-btn:focus {
 	outline: none;
@@ -127,7 +134,7 @@ p {
 .main-text h2 {
 	font-family: 'Lato', sans-serif;
 	color: white;
-	font-size: 80px;
+	font-size: 7vh;
 	line-height: 150%;		
 	position: relative;
 	margin: 0
@@ -152,7 +159,7 @@ p {
 }
 .social-media .social-media-icon {
 	color: #fff;
-	font-size: 25px;
+	font-size: 3vh;
 }
 .social-media .social-media-icon:hover {
 	color: #d35400;
@@ -175,7 +182,10 @@ p {
 	animation: 2s ease-out 0s 1 fadein;
 }
 .footer p {
-	font-size: 15px;
+	font-size: 2vh;
+}
+.footer p span {
+	color: #d35400;
 }
 @keyframes fadein {
   0% {
@@ -186,4 +196,19 @@ p {
     opacity: 1;
     transform: translateY(0);
   }
+}
+@media screen and (max-width: 767px) {
+	.notify-form {
+		padding: 0 30px;
+	}
+	.notify-me-btn, .notify-me-text {
+		padding: 15px;
+		display: block;
+		margin: 10px auto;
+	}
+	.notify-me-text {
+		margin: 0 auto;
+		width: 70%;
+	}
+	
 }		
