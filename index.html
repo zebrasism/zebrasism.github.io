@@ -1,46 +1,173 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Homepage - hklzndn</title>
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-	<link rel="stylesheet" href="./font-awesome-4.6.3/css/font-awesome.min.css">
-	<link rel="stylesheet" href="./mainStyle.css">
-	<link rel="shortcut icon" type="image/png" href="./favicon2.png"/>
-	<meta name="viewport" content="width=device-width" />
-</head>
-<body>
-	<div class="main-container ovh">
-		<div class="full-width-container coming-soon ovh" id="coming-soon">
-		<img class="coming-soon-img object-fit-cover" src="./bgBig.jpg">
-			<div class="text-wrapper flex ovh">
-				<div class="main-text">
-					<h2>This site is under construction.</h2>
-					<h2>Stay tuned!</h2>
-					<form class="notify-form" action="https://formspree.io/haikalzainuddin@gmail.com"
-					      method="POST">
-					    <input type="email" name="_replyto" placeholder="Write your email to get notified" class="notify-me-text trans">
-					    <button type="submit" value="Notify me!" class="notify-me-btn trans">Notify me!</button>
-					</form>
-				</div>
-				<div class="secondary-text">
-					<p>Meanwhile, let me buy you a drink and let's have a chat.</p>
-					<p>Ping me via: </p>
-					<div class="social-media flex">
-						<a href="https://www.facebook.com/haikal.zainuddin.1" target="_blank" class="social-media-icon trans"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-						<a href="https://www.linkedin.com/in/haikal-zainuddin/" target="_blank" class="social-media-icon trans"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-						<a href="https://twitter.com/haikalzainuddin" target="_blank" class="social-media-icon trans"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-						<a href="http://steamcommunity.com/id/zebrasism" target="_blank" class="social-media-icon trans"><i class="fa fa-steam-square" aria-hidden="true"></i></a>
-						<a href="https://github.com/zebrasism" target="_blank" class="social-media-icon trans"><i class="fa fa-github" aria-hidden="true"></i></a>
-						<a href="mailto:haikalzainuddin@gmail.com" target="_blank" class="social-media-icon trans"><i class="fa fa-google" aria-hidden="true"></i></a>
-						<a href="tel:+60174383016" target="_blank" class="social-media-icon trans"><i class="fa fa-mobile" aria-hidden="true"></i></a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="footer flex">
-			<p>Haikal Zainuddin <span>|</span> 2018</p>
-			<a href="/about">click me!</a>
-		</div>
-	</div>
-</body>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Entropia Assessment - Haikal Zainuddin</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- bootstrap cdn -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+        <!-- google font include  -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+        <!-- font awesome include -->
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <!-- owl carousel include -->
+        <link rel="stylesheet" type="text/css" media="screen" href="./assets/stylesheets/main.css" />
+        <!-- jQuery include -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- custom javascript include -->
+        <script src="./assets/javascripts/custom.js"></script>
+    </head>
+    <body>
+        <div class="sticky d-flex flex-column">
+            <a href=""><i class="fa fa-user"></i> CTA Button</a>
+            <a href=""><i class="fa fa-filter"></i> View Sample</a>
+        </div>
+        <header id="header">
+            <div class="container-fluid d-flex justify-content-between">
+                <a href="#menu" class="mobile-menu"><i class="fa fa-bars"></i></a>
+                <ul class="d-flex list-unstyled mb-0 ml-auto mr-auto hidden-xs hidden-sm">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Collections</a></li>
+                    <li><a href="#">Latest News</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+                <div class="top-links">
+                    <a href="#"><i class="fa fa-search"></i></a>
+                    |
+                    <a href="#">Log In</a>
+                </div>
+            </div>
+        </header>
+        <div class="content">
+            <section id="banner">
+                <figure>
+                    <img src="./assets/images/banner.jpg" alt="main banner image"/>
+                </figure>
+                <article class="text-center">
+                    <img id="logo" src="./assets/images/logo.png" alt="logo"/>
+                    <h1>Sed posuere dolor non lacinia aliorttitor congue.</h1>
+                    <a href="#" class="main-btn">Explore Now</a>
+                </article>
+            </section>
+            <section id="about">
+                <div class="container">
+                    <div class="section-title">
+                        <h3>About Us</h3>
+                        <h2>Curabitur nisl lorem</h2>
+                    </div>
+                    <div class="content text-center">
+                            <nav>
+                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">sollicitudin</a>
+                                    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">eu viverra</a>
+                                    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">venetis varius</a>
+                                </div>
+                            </nav>
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pretium, est eu venenatis varius, ligula elit efficitur lectus.
+                                    Gravida condimentum odio, molestie posuere neque lacinia non. Phasellus efficitur dignissim orci, eget lacinia enim aliquam nec. Mauris fringilla cursus elementum. Integer pretium justo quis augue lobortis semper.
+                                </div>
+                                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pretium, est eu venenatis varius, ligula elit efficitur lectus.
+                                    Gravida condimentum odio, molestie posuere neque lacinia non. Phasellus efficitur dignissim orci, eget lacinia enim aliquam nec. Mauris fringilla cursus elementum. Integer pretium justo quis augue lobortis semper.
+                                </div>
+                                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pretium, est eu venenatis varius, ligula elit efficitur lectus.
+                                    Gravida condimentum odio, molestie posuere neque lacinia non. Phasellus efficitur dignissim orci, eget lacinia enim aliquam nec. Mauris fringilla cursus elementum. Integer pretium justo quis augue lobortis semper.
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </section>
+            <section id="blogs">
+                <figure>
+                    <img src="./assets/images/blogs.jpg"/>
+                </figure>
+                <article>
+                    <div class="container">
+                        <div class="section-title white">
+                            <h3>Blog</h3>
+                            <h2>Curabitur nisl lorem</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-12">
+                                <div class="block d-flex flex-column justify-content-between">
+                                    <div class="date">19 July 2019</div>
+                                    <div>
+                                        <h4>Quisque ligula rutrum vel</h4>
+                                        <p>Quisque dignissim lacus nisi, a sodales tortor tincidunt et. In gravida condimentum odio</p>
+                                    </div>
+                                    <div class="read-more">Read more <i class="fa fa-arrow-right"></i></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <div class="block d-flex flex-column justify-content-between">
+                                    <div class="date">19 July 2019</div>
+                                    <div>
+                                        <h4>voluptatem  dolor emque</h4>
+                                        <p>aboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
+                                        <p>esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo .</p>
+                                    </div>
+                                    <div class="read-more">Read more <i class="fa fa-arrow-right"></i></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <div class="block d-flex flex-column justify-content-between">
+                                    <div class="date">19 July 2019</div>
+                                    <div>
+                                        <h4>Tutrum velumn</h4>
+                                        <p>Quisque dignissim lacus nisi, a sodales tortor tincidunt et. In gravida condimentum odio</p>
+                                        <div class="logo-circle d-flex justify-content-center align-items-center">Logo</div>
+                                    </div>
+                                    <div class="read-more">Read more <i class="fa fa-arrow-right"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section id="events">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <a href="#">
+                                <h2>Sed posuere dolor non lacinia aliorttitor congue.</h2>
+                                <h3>Quisque dignissim lacus nisi, a sodales torto</h3>
+                            </a>
+                            <a href="#">
+                                <h2>Lacinia aliquam.</h2>
+                                <h3>Dignissim lacus nisi, a sodales torto</h3>
+                            </a>
+                            <a href="#">
+                                <h2>Curabitur ut neque eu eros.</h2>
+                                <h3>Dignissim lacus nisi, a sodales torto</h3>
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <figure>
+                                <img src="./assets/images/events.jpg"/>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer id="footer">
+            <div class="go-top d-flex justify-content-center align-items-center trans"><i class="fa fa-chevron-up"></i></div>
+            <div class="container-fluid d-flex flex-wrap justify-content-center justify-content-md-between justify-content-lg-between">
+                <div>
+                    <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a>
+                </div>
+                <div>
+                    <p>Copyright &copy; 2019. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
